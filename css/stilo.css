@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Header Styles */
+.navbar {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+/* Reduce font size for mobile screens */
+.navbar-brand {
+    font-size: 24px;
+}
+
+/* Main Content Styles */
+.Titulo {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+.Texto {
+    margin-top: 20px;
+}
+
+.recuadro {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Reduce font size for mobile screens */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    /* Reduce font size for smaller screens */
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .Titulo {
+        font-size: 24px;
+    }
+
+    .Texto {
+        font-size: 16px;
+    }
+
+    .recuadro {
+        padding: 10px;
+    }
+
+    /* Adjust header padding for smaller screens */
+    .navbar {
+        padding: 5px;
+    }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital general</title>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/stilo.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navegador">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../paginas/contactos.html">contactos</a></li>
+                <li><a href="../paginas/sedes.html">sedes</a></li>
+                <li><a href="../paginas/staff.html">staff</a></li>
+                <li><a href="../paginas/guardias.html">guardias</a></li>
+            </ul>
+        </nav>
+    </header>
+    <Main>
+        <section class="formulario">
+            <h5>¡Puedes contactarnos por aquí!</h5>
+            <form action="procesar_formulario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensaje">Cuéntanos cómo deseas tu promo:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+                <input class="boton" type="submit" value="Enviar">
+            </form>
+        </section>
+    </Main>
+    <footer class="footer">
+        <p>&copy; 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+            <li><a href="terminos-condiciones.html">Términos y Condiciones</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
